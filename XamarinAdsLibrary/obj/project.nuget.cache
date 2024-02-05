@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BSHPO9HMQpuxj3UHJmZweoEUMUwfiDDAliPA5CILP+zQKRkSfIpv+hbe9W5BLZ5M8biElRcH+gZu8nI7t+wE9Q==",
+  "success": true,
+  "projectFilePath": "/Users/alex/RiderProjects/XamarinAdsLibrary/XamarinAdsLibrary/XamarinAdsLibrary.csproj",
+  "expectedPackageFiles": [
+    "/Users/alex/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
