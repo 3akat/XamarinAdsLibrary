@@ -2,6 +2,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinAdsLibrary", "XamarinAdsLibrary\XamarinAdsLibrary.csproj", "{903D5EE5-8BF4-4CF8-BA2B-45786DBA04A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PausedAdsAndroidTV", "PausedAdsAndroidTV\PausedAdsAndroidTV.csproj", "{C187E1CE-C11E-4BED-8630-A350822FBC75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PausedAdsTvOS", "PausedAdsTvOS\PausedAdsTvOS.csproj", "{F0E22DF9-737F-4A75-B837-5891E7014C8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PausedAdsAndroidTV.Binding", "PausedAdsAndroidTV.Binding\PausedAdsAndroidTV.Binding.csproj", "{4D09E26E-B8B5-4DDD-956F-11F9C2BFDC11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PausedAdsTvOS.Binding", "PausedAdsTvOS.Binding\PausedAdsTvOS.Binding.csproj", "{52128275-281F-494A-AFA5-535CAF4DC427}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +20,21 @@ Global
 		{903D5EE5-8BF4-4CF8-BA2B-45786DBA04A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{903D5EE5-8BF4-4CF8-BA2B-45786DBA04A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{903D5EE5-8BF4-4CF8-BA2B-45786DBA04A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C187E1CE-C11E-4BED-8630-A350822FBC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C187E1CE-C11E-4BED-8630-A350822FBC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C187E1CE-C11E-4BED-8630-A350822FBC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C187E1CE-C11E-4BED-8630-A350822FBC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0E22DF9-737F-4A75-B837-5891E7014C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E22DF9-737F-4A75-B837-5891E7014C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E22DF9-737F-4A75-B837-5891E7014C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E22DF9-737F-4A75-B837-5891E7014C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D09E26E-B8B5-4DDD-956F-11F9C2BFDC11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D09E26E-B8B5-4DDD-956F-11F9C2BFDC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D09E26E-B8B5-4DDD-956F-11F9C2BFDC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D09E26E-B8B5-4DDD-956F-11F9C2BFDC11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52128275-281F-494A-AFA5-535CAF4DC427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52128275-281F-494A-AFA5-535CAF4DC427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52128275-281F-494A-AFA5-535CAF4DC427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52128275-281F-494A-AFA5-535CAF4DC427}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
