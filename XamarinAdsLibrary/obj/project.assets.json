@@ -18,6 +18,15 @@
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
         }
+      },
+      "PausedAdsAndroidTV.Binding/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/PausedAdsAndroidTV.Binding.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PausedAdsAndroidTV.Binding.dll": {}
+        }
       }
     }
   },
@@ -237,10 +246,16 @@
         "xamarin.forms.5.0.0.2012.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "PausedAdsAndroidTV.Binding/1.0.0": {
+      "type": "project",
+      "path": "../PausedAdsAndroidTV.Binding/PausedAdsAndroidTV.Binding.csproj",
+      "msbuildProject": "../PausedAdsAndroidTV.Binding/PausedAdsAndroidTV.Binding.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
+      "PausedAdsAndroidTV.Binding >= 1.0.0",
       "Xamarin.Forms >= 5.0.0.2012"
     ]
   },
@@ -263,14 +278,18 @@
         "netstandard2.1"
       ],
       "sources": {
+        "/Users/alex/RiderProjects/XamarinAdsLibrary": {},
         "/Users/alex/TestProjects/Xamarin-SDK": {},
-        "/Users/alex/proj/ziggeo/Xamarin-SDK": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/alex/RiderProjects/XamarinAdsLibrary/PausedAdsAndroidTV.Binding/PausedAdsAndroidTV.Binding.csproj": {
+              "projectPath": "/Users/alex/RiderProjects/XamarinAdsLibrary/PausedAdsAndroidTV.Binding/PausedAdsAndroidTV.Binding.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

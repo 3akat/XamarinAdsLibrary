@@ -5,6 +5,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012"/>
+        <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PausedAdsAndroidTV.Binding\PausedAdsAndroidTV.Binding.csproj" />
+    </ItemGroup>
+
+<!--    <ItemGroup>-->
+<!--      <ProjectReference Include="..\PausedAdsAndroidTV\PausedAdsAndroidTV.csproj" />-->
+<!--    </ItemGroup>-->
 </Project>

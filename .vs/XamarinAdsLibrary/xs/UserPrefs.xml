@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{C187E1CE-C11E-4BED-8630-A350822FBC75}|Default">
+  <MonoDevelop.Ide.ItemProperties.PausedAdsAndroidTV PreferredExecutionTarget="Android.Android_TV_720p_API_34" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinAdsLibrary/PausedAds.cs">
+    <Files>
+      <File FileName="XamarinAdsLibrary/PausedAds.cs" Line="3" Column="28" />
+      <File FileName="PausedAdsTvOS/Class1.cs" Line="1" Column="1" />
+      <File FileName="PausedAdsAndroidTV/Class1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinAdsLibrary" expanded="True">
+            <Node name="PausedAdsAndroidTV" expanded="True" />
+            <Node name="XamarinAdsLibrary" expanded="True">
+              <Node name="PausedAds.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

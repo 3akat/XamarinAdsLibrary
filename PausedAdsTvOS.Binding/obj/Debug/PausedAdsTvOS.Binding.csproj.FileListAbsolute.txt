@@ -1,0 +1,8 @@
+/Users/alex/RiderProjects/XamarinAdsLibrary/PausedAdsTvOS.Binding/bin/Debug/PausedAdsTvOS.Binding.dll
+/Users/alex/RiderProjects/XamarinAdsLibrary/PausedAdsTvOS.Binding/bin/Debug/PausedAdsTvOS.Binding.pdb
+/Users/alex/RiderProjects/XamarinAdsLibrary/PausedAdsTvOS.Binding/obj/Debug/_ProcessedBundleResourcesPath.items
+/Users/alex/RiderProjects/XamarinAdsLibrary/PausedAdsTvOS.Binding/obj/Debug/_ProcessedContentPath.items
+/Users/alex/RiderProjects/XamarinAdsLibrary/PausedAdsTvOS.Binding/obj/Debug/PausedAdsTvOS.Binding.csproj.AssemblyReference.cache
+/Users/alex/RiderProjects/XamarinAdsLibrary/PausedAdsTvOS.Binding/obj/Debug/PausedAdsTvOS.Binding.csproj.CoreCompileInputs.cache
+/Users/alex/RiderProjects/XamarinAdsLibrary/PausedAdsTvOS.Binding/obj/Debug/PausedAdsTvOS.Binding.dll
+/Users/alex/RiderProjects/XamarinAdsLibrary/PausedAdsTvOS.Binding/obj/Debug/PausedAdsTvOS.Binding.pdb

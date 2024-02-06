@@ -1,0 +1,30 @@
+==== Cycle 1 ====
+
+The method '[Method] com.google.ads.interactivemedia.v3.api.AdDisplayContainer getAdDisplayContainer()' was removed because the Java return type 'com.google.ads.interactivemedia.v3.api.AdDisplayContainer' could not be found.
+The method '[Method] com.google.ads.interactivemedia.v3.api.AdsLoader getAdsLoader()' was removed because the Java return type 'com.google.ads.interactivemedia.v3.api.AdsLoader' could not be found.
+The method '[Method] com.example.androidtvlibrary.main.adapter.ImaAdsLoaderTest.Builder setAdEventListener(com.google.ads.interactivemedia.v3.api.AdEvent.AdEventListener adEventListener)' was removed because the Java parameter type 'com.google.ads.interactivemedia.v3.api.AdEvent.AdEventListener' could not be found.
+The method '[Method] com.example.androidtvlibrary.main.adapter.ImaAdsLoaderTest.Builder setAdUiElements(java.util.Set<com.google.ads.interactivemedia.v3.api.UiElement> adUiElements)' was removed because the Java parameter type 'java.util.Set' could not be found.
+The method '[Method] com.example.androidtvlibrary.main.adapter.ImaAdsLoaderTest.Builder setImaSdkSettings(com.google.ads.interactivemedia.v3.api.ImaSdkSettings imaSdkSettings)' was removed because the Java parameter type 'com.google.ads.interactivemedia.v3.api.ImaSdkSettings' could not be found.
+The class '[Class] com.example.androidtvlibrary.main.adapter.ImaAdsLoaderTest.ComponentListener' was removed because the Java implemented interface type 'com.google.ads.interactivemedia.v3.api.player.VideoAdPlayer' could not be found.
+The method '[Method] void setErrorMessageProvider(androidx.media3.common.ErrorMessageProvider<? super java.lang.Exception> errorMessageProvider)' was removed because the Java parameter type 'androidx.media3.common.ErrorMessageProvider' could not be found.
+The method '[Method] void onCues(java.util.List<androidx.media3.common.text.Cue> cues)' was removed because the Java parameter type 'java.util.List' could not be found.
+The method '[Method] void onCues(java.util.List<androidx.media3.common.text.Cue> p0)' was removed because the Java parameter type 'java.util.List' could not be found.
+The class '[Class] com.example.androidtvlibrary.main.adapter.VideoAdPlayerAdapter' was removed because the Java implemented interface type 'com.google.ads.interactivemedia.v3.api.player.VideoAdPlayer' could not be found.
+The field 'Java.Interop.Tools.JavaTypeSystem.Models.JavaFieldModel' was removed because the Java field type 'androidx.media3.common.ColorInfo' could not be found.
+The method '[Method] com.example.androidtvlibrary.main.adapter.Media.MediaSourceFactory setStreamKeys(java.util.List<androidx.media3.common.StreamKey> streamKeys)' was removed because the Java parameter type 'java.util.List' could not be found.
+The method '[Method] java.util.List<androidx.media3.common.StreamKey> getStreamKeys(java.util.List<com.example.androidtvlibrary.main.adapter.TrackSelection> trackSelections)' was removed because the Java return type 'java.util.List<androidx.media3.common.StreamKey>' could not be found.
+The method '[Method] void onCues(java.util.List<androidx.media3.common.text.Cue> cues)' was removed because the Java parameter type 'java.util.List' could not be found.
+
+==== Cycle 2 ====
+
+The method '[Method] com.google.ads.interactivemedia.v3.api.AdDisplayContainer createAdDisplayContainer()' was removed because the Java return type 'com.google.ads.interactivemedia.v3.api.AdDisplayContainer' could not be found.
+The method '[Method] com.google.ads.interactivemedia.v3.api.AdsLoader createAdsLoader(android.content.Context context, com.google.ads.interactivemedia.v3.api.ImaSdkSettings imaSdkSettings, com.google.ads.interactivemedia.v3.api.AdDisplayContainer adDisplayContainer)' was removed because the Java return type 'com.google.ads.interactivemedia.v3.api.AdsLoader' could not be found.
+The method '[Method] com.google.ads.interactivemedia.v3.api.AdsRenderingSettings createAdsRenderingSettings()' was removed because the Java return type 'com.google.ads.interactivemedia.v3.api.AdsRenderingSettings' could not be found.
+The method '[Method] com.google.ads.interactivemedia.v3.api.AdsRequest createAdsRequest()' was removed because the Java return type 'com.google.ads.interactivemedia.v3.api.AdsRequest' could not be found.
+The method '[Method] com.google.ads.interactivemedia.v3.api.ImaSdkSettings createImaSdkSettings()' was removed because the Java return type 'com.google.ads.interactivemedia.v3.api.ImaSdkSettings' could not be found.
+The method '[Method] com.google.ads.interactivemedia.v3.api.AdDisplayContainer createAdDisplayContainer()' was removed because the Java return type 'com.google.ads.interactivemedia.v3.api.AdDisplayContainer' could not be found.
+The method '[Method] com.google.ads.interactivemedia.v3.api.AdsLoader createAdsLoader(android.content.Context p0, com.google.ads.interactivemedia.v3.api.ImaSdkSettings p1, com.google.ads.interactivemedia.v3.api.AdDisplayContainer p2)' was removed because the Java return type 'com.google.ads.interactivemedia.v3.api.AdsLoader' could not be found.
+The method '[Method] com.google.ads.interactivemedia.v3.api.AdsRenderingSettings createAdsRenderingSettings()' was removed because the Java return type 'com.google.ads.interactivemedia.v3.api.AdsRenderingSettings' could not be found.
+The method '[Method] com.google.ads.interactivemedia.v3.api.AdsRequest createAdsRequest()' was removed because the Java return type 'com.google.ads.interactivemedia.v3.api.AdsRequest' could not be found.
+The method '[Method] com.google.ads.interactivemedia.v3.api.ImaSdkSettings createImaSdkSettings()' was removed because the Java return type 'com.google.ads.interactivemedia.v3.api.ImaSdkSettings' could not be found.
+

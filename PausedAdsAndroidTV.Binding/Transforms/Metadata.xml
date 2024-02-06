@@ -1,9 +1,88 @@
 ﻿<metadata>
-  <!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
+    <!--
+    This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+    <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+    
+    This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+    <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+    -->
+    <add-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter']/class[@name='PlayerView']"/>
+
+    <!--  <attr path="/api/package[@name='com.example.androidtvlibrary.main.adapter']/class[@name='DrmInitData']/method[@name='compare' and count(parameter)=2 and parameter[1][@type='com.example.androidtvlibrary.main.adapter.DrmInitData.SchemeData']]" name="managedType">Java.Lang.Object?</attr>-->
+    <!--  <attr path="/api/package[@name='com.example.androidtvlibrary.main.adapter']/class[@name='DrmInitData']/method[@name='compare' and count(parameter)=2 and parameter[2][@type='com.example.androidtvlibrary.main.adapter.DrmInitData.SchemeData']]" name="managedType">Java.Lang.Object?</attr>-->
+
+    <add-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter']/class[@name='DrmInitData']">
+        <method name="compare" return="int" abstract="false" native="false" synchronized="false" static="false"
+                final="false" deprecated="not deprecated" visibility="public">
+            <parameter name="p0" type="java.lang.Object"/>
+            <parameter name="p1" type="java.lang.Object"/>
+        </method>
+    </add-node>
+
+    <add-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter']/class[@name='PlayerView']">
+        
+    </add-node>
+
+    <attr
+            path="/api/package[@name='com.example.androidtvlibrary.main.adapter.ads']/class[@name='AdsMediaSource']/method[@name='onChildSourceInfoRefreshed']"
+            name="managedReturn">Java.Lang.Object
+    </attr>
+<!--        <add-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.ads']/class[@name='AdsMediaSource']">-->
+<!--            <method name='onChildSourceInfoRefreshed' >-->
+<!--              <parameter name="p0" type="java.lang.Object"/>-->
+<!--              <parameter name="p1" type="com.example.androidtvlibrary.main.adapter.wow.MediaSource"/>-->
+<!--              <parameter name="p2" type="com.example.androidtvlibrary.main.adapter.Timeline"/>-->
+<!--            </method>-->
+<!--        </add-node>-->
+    <!--    <add-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.ads']/class[@name='MaskingMediaPeriod']">-->
+    <!--        <method name="onContinueLoadingRequested" >-->
+    <!--            <parameter name="p0" type="java.lang.Object"/>-->
+    <!--        </method>-->
+    <!--    </add-node>-->
+
+<!--    // Metadata.xml XPath method reference:-->
+<!--    path="/api/package[@name='com.example.androidtvlibrary.main.adapter.factory']/class[@name='DefaultHttpDataSourceFactory']/-->
+<!--    method[@name='createDataSourceInternal' and count(parameter)=1 and-->
+<!--    parameter[1][@type='com.example.androidtvlibrary.main.adapter.factory.HttpDataSource.RequestProperties']]"-->
+    
+    <add-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.factory']/class[@name='DefaultHttpDataSourceFactory']">
+        <method name="createDataSourceInternal" return="com.example.androidtvlibrary.main.adapter.factory.DefaultHttpDataSource" abstract="false" native="false" synchronized="false" static="false"
+                final="false" deprecated="not deprecated" visibility="protected">
+            <parameter name="p0" type="com.example.androidtvlibrary.main.adapter.factory.HttpDataSource.RequestProperties"/>
+        </method>
+    </add-node>
+
+    <attr
+            path="/api/package[@name='com.example.androidtvlibrary.main.adapter.ads']/
+    class[@name='MaskingMediaPeriod']/
+    method[@name='onContinueLoadingRequested' and count(parameter)=1 and parameter[1][@type='com.example.androidtvlibrary.main.adapter.wow.MediaPeriod']]
+    /parameter[1]"
+            name="managedType">
+        Java.Lang.Object
+    </attr>
+
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.Media.extractor']/class[@name='AudioTagPayloadReader']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.Media.extractor']/class[@name='FlacBinarySearchSeeker']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.Media.extractor']/class[@name='FlacReader']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.Media.extractor']/class[@name='PsBinarySearchSeeker']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.Media.extractor']/class[@name='VorbisReader']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.Media.extractor']/class[@name='TsBinarySearchSeeker']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.Media.extractor']/class[@name='ScriptTagPayloadReader']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.Media.extractor']/class[@name='VideoTagPayloadReader']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.Media.extractor']/class[@name='OpusReader']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.wow']/class[@name='WowPlayerImpl']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter']/class[@name='TestPlayerBase']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.factory']/class[@name='DefaultHttpDataSourceFactory']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter']/interface[@name='DataSource.Factory']/method[@name='createDataSource' and count(parameter)=0]" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.player']/class[@name='DefaultTimeBar']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.wow']/class[@name='WowPlayerImplInternal']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.ads']/class[@name='AdsMediaSource']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.Media']/class[@name='ProgressiveMediaSource.Factory']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.Media']/class[@name='ProgressiveMediaSource.Factory']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.Media.extractor']/class[@name='DefaultOggSeeker']" />
+    <remove-node path="/api/package[@name='com.example.androidtvlibrary.main.adapter.Media.extractor']/class[@name='BinarySearchSeeker.BinarySearchSeekMap']" />
+
+    <attr path="/api/package[@name='com.example.androidtvlibrary.main.adapter.Media']/interface[@name='Extractor']" name="managedName">Extractor1</attr>
+    <attr path="/api/package[@name='com.example.androidtvlibrary.main.adapter.factory']/class[@name='DefaultHttpDataSourceFactory']/method[@name='createDataSourceInternal' and count(parameter)=1 and parameter[1][@type='com.example.androidtvlibrary.main.adapter.factory.HttpDataSource.RequestProperties']]" name="managedName">createDataSourceInternal1</attr>
+
 </metadata>

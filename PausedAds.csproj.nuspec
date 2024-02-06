@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>PausedAds</id>
+    <version>1.0.28</version>
+    <authors>alex</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
+    <description>Package description</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>Tag1 Tag2</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Newtonsoft.Json" version="12.0.2" exclude="Build,Analyzers" />
+        <dependency id="SampleDependency" version="1.0.0" />
+      </group>
+      <group targetFramework="MonoAndroid">
+        <dependency id="Newtonsoft.Json" version="12.0.2" exclude="Build,Analyzers" />
+        <dependency id="Karamunting.Android.Karumi.Dexter" version="6.2.0" />
+        <dependency id="GoogleGson" version="2.8.6" />
+    	<dependency id="Naxam.SquareUp.OkHttp3.LoggingInterceptor" version="3.11.0" />
+    	<dependency id="Square.OkHttp3" version="3.12.6" />
+    	<dependency id="Xamarin.AndroidX.AppCompat" version="1.6.1.6" />
+    	<dependency id="Xamarin.AndroidX.ConstraintLayout" version="2.0.4" />
+    	<dependency id="Xamarin.AndroidX.RecyclerView" version="1.2.1" />
+    	<dependency id="Xamarin.AndroidX.Room.Runtime" version="2.3.0" />
+    	<dependency id="Xamarin.AndroidX.Work.Runtime" version="2.7.1.2" exclude="Build,Analyzers" />
+    	<dependency id="Xamarin.Google.Android.Material" version="1.0.0.1" />
+    	<dependency id="Xamarin.Google.ZXing.Core" version="3.3.3" />
+        <dependency id="Xamarin.Android.ReactiveX.RxJava" version="2.2.9"/>
+        <dependency id="Xam.Plugins.Android.Interactivemedia.Ads" version="3.19.2"/>
+        <dependency id="Xamarin.GooglePlayServices.Ads" version="122.3.0.2"/>
+        <dependency id="Xamarin.GooglePlayServices.Ads.Identifier" version="118.0.1.8"/>
+        <dependency id="Xamarin.Android.ReactiveX.RxAndroid" version="2.1.1"/>
+        <dependency id="Xamarin.Android.ReactiveStreams" version="1.0.2"/>
+
+      </group>
+    </dependencies>
+<frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid" />
+      <frameworkAssembly assemblyName="Mono.Android" targetFramework="MonoAndroid" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="MonoAndroid" />
+      <frameworkAssembly assemblyName="System" targetFramework="MonoAndroid" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="MonoAndroid" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <!-- NetStandard -->
+    <file src="XamarinAdsLibrary/bin/Debug/netstandard2.1/XamarinAdsLibrary.dll"  target="lib/netstandard2.1/XamarinAdsLibrary.dll" />
+    <file src="XamarinAdsLibrary/bin/Debug/netstandard2.1/XamarinAdsLibrary.pdb"  target="lib/netstandard2.1/XamarinAdsLibrary.pdb" />
+
+
+
+    <!-- Xamarin.Android -->
+    <file src="PausedAdsAndroidTV/bin/Debug/PausedAdsAndroidTV.dll"         target="lib/MonoAndroid/PausedAdsAndroidTV.dll" />
+    <file src="PausedAdsAndroidTV/bin/Debug/PausedAdsAndroidTV.pdb"         target="lib/MonoAndroid/PausedAdsAndroidTV.pdb" />
+    <file src="PausedAdsAndroidTV/bin/Debug/XamarinAdsLibrary.dll"     target="lib/MonoAndroid/XamarinAdsLibrary.dll" />
+    <file src="PausedAdsAndroidTV/bin/Debug/XamarinAdsLibrary.pdb"     target="lib/MonoAndroid/XamarinAdsLibrary.pdb" />
+    <file src="PausedAdsAndroidTV/bin/Debug/PausedAdsAndroidTV.Binding.dll" target="lib/MonoAndroid/PausedAdsAndroidTV.Binding.dll" />
+    <file src="PausedAdsAndroidTV/bin/Debug/PausedAdsAndroidTV.Binding.pdb" target="lib/MonoAndroid/PausedAdsAndroidTV.Binding.pdb" />
+
+  
+  </files>
+</package>
