@@ -3,7 +3,7 @@
     <Import Project="..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.props" Condition="Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.props')" />
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
         <ProjectGuid>{F0E22DF9-737F-4A75-B837-5891E7014C8C}</ProjectGuid>
         <ProjectTypeGuids>{06FA79CB-D6CD-4721-BB4B-1BD202089C55};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
         <OutputType>Library</OutputType>
@@ -11,7 +11,7 @@
         <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
         <AssemblyName>PausedAdsTvOS</AssemblyName>
     </PropertyGroup>
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
         <DebugSymbols>true</DebugSymbols>
         <DebugType>full</DebugType>
         <Optimize>false</Optimize>
@@ -26,7 +26,7 @@
         <IOSDebuggerPort>16629</IOSDebuggerPort>
         <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     </PropertyGroup>
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
         <DebugType>pdbonly</DebugType>
         <Optimize>true</Optimize>
         <OutputPath>bin\Release</OutputPath>
@@ -42,16 +42,16 @@
         <Reference Include="System.Xml" />
         <Reference Include="System.Core" />
         <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null">
-          <HintPath>..\packages\Xamarin.Forms.5.0.0.2012\lib\netstandard2.0\Xamarin.Forms.Core.dll</HintPath>
-          <Private>True</Private>
+            <HintPath>..\packages\Xamarin.Forms.5.0.0.2012\lib\netstandard2.0\Xamarin.Forms.Core.dll</HintPath>
+            <Private>True</Private>
         </Reference>
         <Reference Include="Xamarin.Forms.Platform, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null">
-          <HintPath>..\packages\Xamarin.Forms.5.0.0.2012\lib\netstandard2.0\Xamarin.Forms.Platform.dll</HintPath>
-          <Private>True</Private>
+            <HintPath>..\packages\Xamarin.Forms.5.0.0.2012\lib\netstandard2.0\Xamarin.Forms.Platform.dll</HintPath>
+            <Private>True</Private>
         </Reference>
         <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null">
-          <HintPath>..\packages\Xamarin.Forms.5.0.0.2012\lib\netstandard2.0\Xamarin.Forms.Xaml.dll</HintPath>
-          <Private>True</Private>
+            <HintPath>..\packages\Xamarin.Forms.5.0.0.2012\lib\netstandard2.0\Xamarin.Forms.Xaml.dll</HintPath>
+            <Private>True</Private>
         </Reference>
         <Reference Include="Xamarin.TVOS" />
     </ItemGroup>
@@ -63,25 +63,58 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\PausedAdsAndroidTV.Binding\PausedAdsAndroidTV.Binding.csproj">
-        <Project>{4d09e26e-b8b5-4ddd-956f-11f9c2bfdc11}</Project>
-        <Name>PausedAdsAndroidTV.Binding</Name>
-      </ProjectReference>
-      <ProjectReference Include="..\XamarinAdsLibrary\XamarinAdsLibrary.csproj">
-        <Project>{903d5ee5-8bf4-4cf8-ba2b-45786dba04a3}</Project>
-        <Name>XamarinAdsLibrary</Name>
-      </ProjectReference>
+        <ProjectReference Include="..\XamarinAdsLibrary\XamarinAdsLibrary.csproj">
+            <Project>{903d5ee5-8bf4-4cf8-ba2b-45786dba04a3}</Project>
+            <Name>XamarinAdsLibrary</Name>
+        </ProjectReference>
     </ItemGroup>
     <ItemGroup>
-      <None Include="packages.config" />
+        <ProjectReference Include="..\PausedAdsTvOS.Binding\PausedAdsTvOS.Binding.csproj">
+            <Project>{52128275-281F-494A-AFA5-535CAF4DC427}</Project>
+            <Name>PausedAdsTvOS.Binding</Name>
+        </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="packages.config" />
+    </ItemGroup>
+    <ItemGroup>
+<!--      <Content Include="Frameworks\AppleTVAds.framework\.DS_Store">-->
+<!--        <Link>libAppleTVAds.a\.DS_Store</Link>-->
+<!--      </Content>-->
+<!--      <Content Include="Frameworks\AppleTVAds.framework\AppleTVAds">-->
+<!--        <Link>AppleTVAds</Link>-->
+<!--      </Content>-->
+<!--      <Content Include="Frameworks\AppleTVAds.framework\AppleTVAds.podspec">-->
+<!--        <Link>libAppleTVAds.a\AppleTVAds.podspec</Link>-->
+<!--      </Content>-->
+<!--      <Content Include="Frameworks\AppleTVAds.framework\Info.plist">-->
+<!--        <Link>libAppleTVAds.a\Info.plist</Link>-->
+<!--      </Content>-->
+<!--      <Content Include="Frameworks\AppleTVAds.framework\LICENSE.txt">-->
+<!--        <Link>libAppleTVAds.a\LICENSE.txt</Link>-->
+<!--      </Content>-->
+<!--      <Content Include="Frameworks\AppleTVAds.framework\Modules\module.modulemap">-->
+<!--        <Link>libAppleTVAds.a\Modules\module.modulemap</Link>-->
+<!--      </Content>-->
+<!--      <Content Include="Frameworks\AppleTVAds.framework\_CodeSignature\CodeResources">-->
+<!--        <Link>libAppleTVAds.a\_CodeSignature\CodeResources</Link>-->
+<!--      </Content>-->
+<!--    </ItemGroup>-->
+<!--    <ItemGroup>-->
+      <ClInclude Include="Frameworks\AppleTVAds.framework\Headers\AppleTVAds-Swift.h">
+        <Link>Headers\AppleTVAds-Swift.h</Link>
+      </ClInclude>
+      <ClInclude Include="Frameworks\AppleTVAds.framework\Headers\AppleTVAds.h">
+        <Link>Headers\AppleTVAds.h</Link>
+      </ClInclude>
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\TVOS\Xamarin.TVOS.CSharp.targets" />
     <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-      <PropertyGroup>
-        <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105.The missing file is {0}.</ErrorText>
-      </PropertyGroup>
-      <Error Condition="!Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.props'))" />
-      <Error Condition="!Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets'))" />
+        <PropertyGroup>
+            <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them. For more information, see http://go.microsoft.com/fwlink/?LinkID=322105.The missing file is {0}.</ErrorText>
+        </PropertyGroup>
+        <Error Condition="!Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.props'))" />
+        <Error Condition="!Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets'))" />
     </Target>
     <Import Project="..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.5.0.0.2012\build\Xamarin.Forms.targets')" />
 </Project>

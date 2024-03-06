@@ -4,7 +4,7 @@ using Foundation;
 using ObjCRuntime;
 using CoreGraphics;
 
-namespace PausedAdsTvOS.Binding
+namespace AppleTVAds
 {
     // The first step to creating a binding is to add your native library ("libNativeLibrary.a")
     // to the project by right-clicking (or Control-clicking) the folder containing this source
@@ -62,4 +62,20 @@ namespace PausedAdsTvOS.Binding
     //
     // For more information, see http://developer.xamarin.com/guides/ios/advanced_topics/binding_objective-c/
     //
+    
+    // @interface AppleTVAds : NSObject
+    [BaseType (typeof(NSObject))]
+    interface AppleTVAds
+    {
+        // -(void)openSDK;
+        [Export("openSDK")]
+        void OpenSDK();
+    }
+    
+        // @interface TVAdsViewController : UIKit.UIViewController
+        [BaseType (typeof(UIKit.UIViewController))]
+        interface TVAdsViewController
+        {
+        }
+    
 }

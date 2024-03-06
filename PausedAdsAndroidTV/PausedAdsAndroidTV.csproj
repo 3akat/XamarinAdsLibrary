@@ -359,14 +359,14 @@
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
     <ItemGroup>
         <ProjectReference Include="..\PausedAdsAndroidTV.Binding\PausedAdsAndroidTV.Binding.csproj">
-            <Project>{10334df5-389d-4e31-83b4-b3e02a40b668}</Project>
+            <Project>{4D09E26E-B8B5-4DDD-956F-11F9C2BFDC11}</Project>
             <Name>PausedAdsAndroidTV.Binding</Name>
         </ProjectReference>
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\XamarinAdsLibrary\XamarinAdsLibrary.csproj">
-            <Project>{10334df5-389d-4e31-83b4-b3e02a40b668}</Project>
-            <Name>XamarinAdsLibrary.Binding</Name>
+            <Project>{903D5EE5-8BF4-4CF8-BA2B-45786DBA04A3}</Project>
+            <Name>XamarinAdsLibrary</Name>
         </ProjectReference>
     </ItemGroup>
     <Import Project="..\packages\Xamarin.AndroidX.ConstraintLayout.Core.1.0.4.9\build\monoandroid12.0\Xamarin.AndroidX.ConstraintLayout.Core.targets" Condition="Exists('..\packages\Xamarin.AndroidX.ConstraintLayout.Core.1.0.4.9\build\monoandroid12.0\Xamarin.AndroidX.ConstraintLayout.Core.targets')" />

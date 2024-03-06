@@ -12,7 +12,4 @@
       <ProjectReference Include="..\PausedAdsAndroidTV.Binding\PausedAdsAndroidTV.Binding.csproj" />
     </ItemGroup>
 
-<!--    <ItemGroup>-->
-<!--      <ProjectReference Include="..\PausedAdsAndroidTV\PausedAdsAndroidTV.csproj" />-->
-<!--    </ItemGroup>-->
 </Project>
